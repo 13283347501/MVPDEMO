@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.berchina.zxlib.widget.ZxSwipeRefreshLayout
+    android:id="@+id/zsrl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/gv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_8"
+        android:horizontalSpacing="@dimen/margin_6"
+        android:numColumns="2"
+        android:verticalSpacing="@dimen/margin_6">
+
+    </GridView>
+
+
+</com.berchina.zxlib.widget.ZxSwipeRefreshLayout>
