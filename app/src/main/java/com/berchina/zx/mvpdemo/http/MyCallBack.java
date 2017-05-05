@@ -19,7 +19,7 @@ import okhttp3.Response;
 /**
  * Created by zx on 2017/5/5 11:22
  * 项目名称：MVPDEMO
- * 类描述：
+ * 类描述：自定义CallBack接收数据
  * 备注
  */
 public abstract class MyCallBack<T> extends StringCallback {
@@ -29,6 +29,7 @@ public abstract class MyCallBack<T> extends StringCallback {
     public void onSuccess(String s, Call call, Response response) {
         this.result = s;
         resultOK(s);
+
     }
 
     @Override

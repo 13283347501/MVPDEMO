@@ -31,6 +31,7 @@ public class NewsFragment extends BaseFragment implements NewsFragmentContract.I
 
     private NewsFragmentPresenter mNewsFragmentPresenter;
     private NewsAdapter mAdapter;
+    private String name;
 
     public static NewsFragment newInstance(String tabName) {
         NewsFragment newsFragment = new NewsFragment();
