@@ -5,18 +5,18 @@
 
 ### 工具类zxlib开源使用
 
-#### 跟项目添加<br>
+#### 跟项目添加
 ```java
 allprojects {
-		repositories {<br>
+		repositories {
 			...
-			maven { url 'https://jitpack.io' }<br>
-		}<br>
+			maven { url 'https://jitpack.io' }
+		}
 	}
 	
 ```	
-#### 项目中添加<br>
+#### 项目中添加
 ```java
-dependencies {<br>
-	      compile 'com.github.zhangxiang0316.MVPDEMO:zxlib:v1.0.1'<br>
+dependencies {
+	      compile 'com.github.zhangxiang0316.MVPDEMO:zxlib:v1.0.1'
 	}
